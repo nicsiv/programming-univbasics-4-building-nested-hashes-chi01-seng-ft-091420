@@ -2,12 +2,12 @@ def base_hash
   {:railroads => {}}
 end
 
-#def base_hash
- # {:railroads => {:peices => "4",
- #   :rent_in_dollars => {},
-  #  :names => {}
-#  }}
-#end
+def base_hash
+  {:railroads => {:peices => "4",
+    :rent_in_dollars => {},
+    :names => {}
+  }}
+end
 
 
 def monopoly_with_third_tier
