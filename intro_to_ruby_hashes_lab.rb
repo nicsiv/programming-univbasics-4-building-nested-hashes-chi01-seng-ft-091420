@@ -2,8 +2,8 @@ def base_hash
   {:railroads => {}}
 end
 
-def base_hash
-  {:railroads => {:peices => "4",
+#def base_hash
+ # {:railroads => {:peices => "4",
     :rent_in_dollars => {},
     :names => {}
   }}
