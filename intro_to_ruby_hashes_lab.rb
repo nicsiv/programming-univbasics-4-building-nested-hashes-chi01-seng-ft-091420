@@ -3,7 +3,7 @@ def base_hash
 end
 
 def monopoly_with_second_tier
-  {:railroads => {:peices => "4",
+  {:railroads => {:pieces => "4",
     :rent_in_dollars => {},
     :names => {}
   }}
@@ -11,7 +11,7 @@ end
 
 
 def monopoly_with_third_tier
-  {:railroads => {:peices => 4,
+  {:railroads => {:pieces => "4",
     :rent_in_dollars => {:one_piece_owned => "25",
       :two_pieces_owned => "50",
       :three_pieces_owned => "100",
@@ -20,7 +20,8 @@ def monopoly_with_third_tier
     :names => {:reading_railroad => {}, 
       :pensylvania_railroad => {},
       :b_ando_railroad => {},
-      :shortline_railroad => {}}}}
+      :shortline_railroad => {}
+    }}}
 end
 
 def monopoly_with_fourth_tier
