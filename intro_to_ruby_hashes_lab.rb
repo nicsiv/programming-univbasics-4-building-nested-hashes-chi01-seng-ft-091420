@@ -9,7 +9,6 @@ def base_hash
   }}
 end
 
-end
 
 def monopoly_with_third_tier
   # When you start writing the implementation for this method, copy the Hash
