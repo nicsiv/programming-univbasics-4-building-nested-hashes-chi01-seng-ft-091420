@@ -4,8 +4,8 @@ end
 
 def base_hash
   {:railroads => {:peices => "4",
-    :rent_in_dollars => "{}",
-    :names => "{}"
+    :rent_in_dollars => {},
+    :names => {}
   }}
 end
 
